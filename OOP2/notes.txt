@@ -1,0 +1,10 @@
+  METHOD RESOLUTION ORDER
+  whenever a class is created, python assigns a Method Resolution Order to it, an order in which python look for methods on instances of that class and calls the method defined in the class that comes first in the Method Resolution Order.
+
+  super(), in this case, refers to the next one in the order
+  
+  Methods to get the MRO
+
+  1.class_name.__mro__
+  2.class_name.mro()
+  3.help(class_name) -> preferred
