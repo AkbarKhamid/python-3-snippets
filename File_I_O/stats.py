@@ -1,3 +1,4 @@
+# HOW TO GET NUMBER OF CHARACTERS/LINES,WORDS etc
 def statistics(file):
     with open(file) as file:
         lines = file.readlines()
