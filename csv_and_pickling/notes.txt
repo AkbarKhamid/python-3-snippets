@@ -1,0 +1,10 @@
+CSV - comma separated values
+
+csv can be handled using the same way as reading any other text file but
+there is special CSV module to work with CSV files
+
+Methods
+  reader() - gives an iterator (one-time usable iterable) 
+             containing each row in a list  
+  DictReader - gives an iterator containing OrderedDicts 
+  
